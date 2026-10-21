@@ -1,0 +1,60 @@
+{
+ "buf2_s0_steady": {
+  "cost_MEUR": 33.365504822666665,
+  "stop_slots_per_yr": 0.0,
+  "shortfall_heats_per_yr": 0.0
+ },
+ "buf2_s0_static": {
+  "cost_MEUR": 32.403977564041725,
+  "stop_slots_per_yr": 213.4,
+  "shortfall_heats_per_yr": 141.28333333333293,
+  "saving_vs_price_blind_pct": 2.881800421529157
+ },
+ "buf2_s48_static": {
+  "cost_MEUR": 33.077798562958385,
+  "stop_slots_per_yr": 0.0,
+  "shortfall_heats_per_yr": 52.2,
+  "saving_vs_price_blind_pct": 0.8622865478505437
+ },
+ "buf2_s72_static": {
+  "cost_MEUR": 33.234544033,
+  "stop_slots_per_yr": 0.0,
+  "shortfall_heats_per_yr": 0.0,
+  "saving_vs_price_blind_pct": 0.3925035462904125
+ },
+ "buf2_s96_static": {
+  "cost_MEUR": 32.403977564041725,
+  "stop_slots_per_yr": 213.4,
+  "shortfall_heats_per_yr": 141.28333333333293,
+  "saving_vs_price_blind_pct": 2.881800421529157
+ },
+ "buf3_s0_steady": {
+  "cost_MEUR": 33.014056012333306,
+  "stop_slots_per_yr": 0.0,
+  "shortfall_heats_per_yr": 0.0
+ },
+ "buf3_s0_static": {
+  "cost_MEUR": 32.00891125919274,
+  "stop_slots_per_yr": 18.8,
+  "shortfall_heats_per_yr": 164.50833333333327,
+  "saving_vs_price_blind_pct": 3.0445963766617012
+ },
+ "buf3_s48_static": {
+  "cost_MEUR": 32.01845633487502,
+  "stop_slots_per_yr": 0.0,
+  "shortfall_heats_per_yr": 159.0,
+  "saving_vs_price_blind_pct": 3.0156842197346267
+ },
+ "buf3_s72_static": {
+  "cost_MEUR": 32.21998005795835,
+  "stop_slots_per_yr": 0.0,
+  "shortfall_heats_per_yr": 104.2,
+  "saving_vs_price_blind_pct": 2.4052662722759854
+ },
+ "buf3_s96_static": {
+  "cost_MEUR": 32.451287126624976,
+  "stop_slots_per_yr": 0.0,
+  "shortfall_heats_per_yr": 52.2,
+  "saving_vs_price_blind_pct": 1.7046341882321014
+ }
+}

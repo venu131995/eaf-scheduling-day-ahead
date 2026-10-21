@@ -1,0 +1,196 @@
+{
+ "n_days": 1090,
+ "first": "2023-01-01",
+ "last": "2025-12-31",
+ "threshold_q_tuned_on_2023": 0.7,
+ "by_year": {
+  "2023": {
+   "days": 363,
+   "energy_GWh": 294.03,
+   "steady_MEUR": 37.752098266666664,
+   "threshold_MEUR": 36.770243470000004,
+   "optimal_MEUR": 36.516279186666665,
+   "saving_optimal_pct": 3.2735109748619373,
+   "saving_threshold_pct": 2.600795298134706,
+   "saving_optimal_MEUR": 1.2358190799999982,
+   "price_paid_steady": 128.3953959346552,
+   "price_paid_optimal": 124.19235855751681,
+   "mean_price": 127.86055325987147
+  },
+  "2024": {
+   "days": 364,
+   "energy_GWh": 294.84,
+   "steady_MEUR": 31.798772428333336,
+   "threshold_MEUR": 30.956859626666674,
+   "optimal_MEUR": 30.738108156666666,
+   "saving_optimal_pct": 3.335550999829151,
+   "saving_threshold_pct": 2.647626739567155,
+   "saving_optimal_MEUR": 1.0606642716666683,
+   "price_paid_steady": 107.85094433704157,
+   "price_paid_optimal": 104.2535210848822,
+   "mean_price": 107.44287889194139
+  },
+  "2025": {
+   "days": 363,
+   "energy_GWh": 294.03,
+   "steady_MEUR": 34.18616994666667,
+   "threshold_MEUR": 33.43705157666667,
+   "optimal_MEUR": 33.14830161,
+   "saving_optimal_pct": 3.035930431182654,
+   "saving_threshold_pct": 2.1912907212732313,
+   "saving_optimal_MEUR": 1.0378683366666734,
+   "price_paid_steady": 116.26762557108687,
+   "price_paid_optimal": 112.73782134476073,
+   "mean_price": 116.01703311524335
+  }
+ },
+ "verification": {
+  "max_abs_milp_minus_dp": 1.4551915228366852e-10,
+  "all_milp_feasible": true,
+  "all_dp_feasible": true,
+  "all_steady_feasible": true,
+  "threshold_infeasible_days": {
+   "0.2": 0,
+   "0.3": 0,
+   "0.4": 0,
+   "0.5": 0,
+   "0.6": 0,
+   "0.7": 0,
+   "0.8": 0,
+   "0.9": 0
+  },
+  "milp_time_median_s": 0.029113704338669777,
+  "milp_time_max_s": 0.19921126402914524,
+  "lp_relaxation_gap_pct_median": 1.3122026631575177,
+  "lp_relaxation_gap_pct_max": 4.103101843549121
+ },
+ "flexibility": {
+  "1.5heats_16perday": {
+   "saving_pct": 2.4782531239351147,
+   "saving_MEUR_per_yr": 0.6553844970151281
+  },
+  "1.5heats_18perday": {
+   "saving_pct": 1.7200735113768961,
+   "saving_MEUR_per_yr": 0.512061084475583
+  },
+  "1.5heats_20perday": {
+   "saving_pct": 1.1847180485038522,
+   "saving_MEUR_per_yr": 0.3903847038703612
+  },
+  "1.5heats_22perday": {
+   "saving_pct": 0.5372352515148449,
+   "saving_MEUR_per_yr": 0.19515629291781053
+  },
+  "2.0heats_16perday": {
+   "saving_pct": 4.657391969632851,
+   "saving_MEUR_per_yr": 1.2309557053318432
+  },
+  "2.0heats_18perday": {
+   "saving_pct": 3.6842471989318004,
+   "saving_MEUR_per_yr": 1.0948360987809482
+  },
+  "2.0heats_20perday": {
+   "saving_pct": 3.1803204379676986,
+   "saving_MEUR_per_yr": 1.0543177925636182
+  },
+  "2.0heats_22perday": {
+   "saving_pct": 2.0196159860232488,
+   "saving_MEUR_per_yr": 0.7327866969446368
+  },
+  "3.0heats_16perday": {
+   "saving_pct": 6.81207097600921,
+   "saving_MEUR_per_yr": 1.7835482398332168
+  },
+  "3.0heats_18perday": {
+   "saving_pct": 5.548503067959276,
+   "saving_MEUR_per_yr": 1.6362257132496592
+  },
+  "3.0heats_20perday": {
+   "saving_pct": 4.647780407528379,
+   "saving_MEUR_per_yr": 1.534614806121047
+  },
+  "3.0heats_22perday": {
+   "saving_pct": 2.356510166816117,
+   "saving_MEUR_per_yr": 0.8533767418225564
+  },
+  "4.0heats_16perday": {
+   "saving_pct": 6.839491579962131,
+   "saving_MEUR_per_yr": 1.7671295631980715
+  },
+  "4.0heats_18perday": {
+   "saving_pct": 6.10636604201471,
+   "saving_MEUR_per_yr": 1.7975175459491068
+  },
+  "4.0heats_20perday": {
+   "saving_pct": 4.036975227471173,
+   "saving_MEUR_per_yr": 1.3195421642176786
+  },
+  "4.0heats_22perday": {
+   "saving_pct": 2.678110607196582,
+   "saving_MEUR_per_yr": 0.9730090554814268
+  }
+ },
+ "delays_2024_p015": {
+  "steady_s0": {
+   "cost_MEUR": 33.344427167,
+   "stop_slots_per_yr": 0.0,
+   "days_with_stop": 0.0,
+   "end_shortfall_heats_per_yr": 0.0
+  },
+  "static_s0": {
+   "cost_MEUR": 32.41752732532812,
+   "stop_slots_per_yr": 210.3,
+   "days_with_stop": 198.6,
+   "end_shortfall_heats_per_yr": 137.24166666666667
+  },
+  "static_s24": {
+   "cost_MEUR": 32.765352162247396,
+   "stop_slots_per_yr": 1.7,
+   "days_with_stop": 1.7,
+   "end_shortfall_heats_per_yr": 102.39583333333333
+  },
+  "static_s48": {
+   "cost_MEUR": 33.064188822750005,
+   "stop_slots_per_yr": 0.0,
+   "days_with_stop": 0.0,
+   "end_shortfall_heats_per_yr": 52.9
+  },
+  "static_s72": {
+   "cost_MEUR": 33.21331695233334,
+   "stop_slots_per_yr": 0.0,
+   "days_with_stop": 0.0,
+   "end_shortfall_heats_per_yr": 0.0
+  },
+  "reopt_s0": {
+   "cost_MEUR": 32.39856338239583,
+   "stop_slots_per_yr": 255.2,
+   "days_with_stop": 198.7,
+   "end_shortfall_heats_per_yr": 139.10416666666666
+  },
+  "reopt_s48": {
+   "cost_MEUR": 33.064188822750005,
+   "stop_slots_per_yr": 0.0,
+   "days_with_stop": 0.0,
+   "end_shortfall_heats_per_yr": 52.9
+  }
+ },
+ "two_furnaces": {
+  "cap_80MW": {
+   "cost_MEUR_30d": 3.5305439416666675,
+   "time_median_s": 0.08647584542632103,
+   "time_max_s": 0.09049873054027557,
+   "nodes_median": 1.0,
+   "all_feasible": true,
+   "peak_mw_max": 55.333333333333336
+  },
+  "no_cap": {
+   "cost_MEUR_30d": 3.461180505,
+   "time_median_s": 0.060668827034533024,
+   "time_max_s": 0.06371518783271313,
+   "nodes_median": 1.0,
+   "all_feasible": true,
+   "peak_mw_max": 106.66666666666667
+  },
+  "cap_cost_pct": 2.0040398519078906
+ }
+}
